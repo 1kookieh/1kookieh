@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=800&color=00A3FF&center=true&vCenter=true&width=520&lines=Python+%E2%80%A2+Java+%E2%80%A2+JavaScript;Código+limpo%2C+arquitetura+clara;Automação+%E2%80%A2+CLI+%E2%80%A2+Document+processing" alt="typing" />
+  <code>Python</code> · <code>Java</code> · <code>JavaScript</code> &nbsp;|&nbsp; Código limpo · Arquitetura clara · Automação
 </p>
 
 ---
