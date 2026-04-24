@@ -1,0 +1,60 @@
+name: Refresh README stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-readme-stats
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Update cache-busting version in README
+        shell: pwsh
+        run: |
+          $path = "README.md"
+          $content = Get-Content -Raw -Path $path
+          $stamp = (Get-Date).ToUniversalTime().ToString("yyyyMMddHH")
+          $updated = [regex]::Replace(
+            $content,
+            "([?&]v=)\d{10}",
+            {
+              param($match)
+              return $match.Groups[1].Value + $stamp
+            }
+          )
+
+          if ($updated -eq $content) {
+            Write-Host "No cache-busting parameters found."
+            exit 0
+          }
+
+          Set-Content -Path $path -Value $updated -NoNewline
+
+      - name: Commit refreshed README
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh README stats cache"
+          git push origin HEAD:${{ github.event.repository.default_branch }}
