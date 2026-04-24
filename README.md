@@ -1,11 +1,11 @@
 <h1 align="center">Olá, eu sou o Igor 👋</h1>
 
 <p align="center">
-  <em>Desenvolvedor de Software & Estudante de Ciência da Computação · Goiânia, Brasil</em>
+  <em>Desenvolvedor de Software & Estudante de Ciência da Computação · Backend, automação e sistemas internos</em>
 </p>
 
 <p align="center">
-  <code>Python</code> · <code>Java</code> · <code>JavaScript</code> · <code>C/C++</code> · <code>MySQL</code> &nbsp;|&nbsp; APIs · IA · Automação · Código limpo
+  <code>Python</code> · <code>FastAPI</code> · <code>JavaScript</code> · <code>Docker</code> · <code>MySQL</code> · <code>C/C++</code> &nbsp;|&nbsp; APIs · Automação · Desktop · Código limpo
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 - Desenvolvedor de Software & Suporte de TI — responsável técnico único por desenvolvimento, automação e integração de sistemas
 - Cursando **Bacharelado em Ciência da Computação na PUC-GO**
-- Foco em **automação com IA**, **integração de APIs REST** e pipelines orientados a dados
+- Foco em **Python**, **APIs REST**, **automação**, **interfaces desktop/web locais** e pipelines orientados a dados
 - Busco **código limpo**, **arquitetura em camadas** e **zero dependência desnecessária**
 - Inglês **B2** — leitura técnica e escrita profissional
 
@@ -30,6 +30,7 @@
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -37,7 +38,9 @@
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img alt="Google Apps Script" src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -64,7 +67,7 @@
 
 **[crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)** — CRUD Desktop em **Python + Tkinter + MySQL**. Pool de conexões, transações, validação, busca em tempo real, ordenação por colunas, atalhos de teclado e hierarquia de exceções. Arquitetura em camadas (UI / CRUD / database / config).
 
-**[sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Pipeline em Python que gera e valida documentos `.docx` formatados automaticamente a partir de texto simples. Arquitetura orientada a filas, validador determinístico e zero dependência externa além do `python-docx`.
+**[sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Sistema em **Python + FastAPI + HTML/CSS/JavaScript + Docker** para gerar, validar e baixar documentos `.docx` a partir de texto simples. Inclui CLI, API REST, front-end local, interface desktop com Tkinter, relatórios JSON/HTML, validação determinística, filas locais e testes automatizados com `pytest`.
 
 ---
 
@@ -88,6 +91,7 @@
 ### Em que estou trabalhando
 
 - Construindo **ferramentas de automação com APIs REST + LLMs**
+- Evoluindo projetos com **FastAPI**, **Docker**, **front-end local** e relatórios técnicos
 - Aprofundando em **MySQL**, **transações** e **arquitetura em camadas**
 - Estudando **arquitetura e desenho de software**, **algoritmos em grafos** e **paradigmas de programação**
 - Refinando projetos em Python com foco em **qualidade de código** e **testes**
