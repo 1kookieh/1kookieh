@@ -1,101 +1,78 @@
-<h1 align="center">Olá, eu sou o Igor 👋</h1>
+# Igor Santos
 
-<p align="center">
-  <em>Desenvolvedor de Software & Estudante de Ciência da Computação · Goiânia, Brasil</em>
-</p>
+**Estudante de Ciência da Computação | Python, Backend, Automação e MySQL | Buscando oportunidades de estágio/júnior**
 
-<p align="center">
-  <code>Python</code> · <code>Java</code> · <code>JavaScript</code> · <code>C/C++</code> · <code>MySQL</code> &nbsp;|&nbsp; APIs · IA · Automação · Código limpo
-</p>
+Sou estudante de Ciência da Computação em Goiânia, com foco em desenvolvimento de software, automação, aplicações internas e integração com banco de dados. Tenho trabalhado em projetos práticos usando Python, MySQL, Tkinter, C/C++ e documentação técnica para transformar problemas reais em sistemas organizados, executáveis e fáceis de manter.
 
-<p align="center">
-  <a href="mailto:igorsntt1@gmail.com"><img src="https://img.shields.io/badge/Email-igorsntt1%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email" /></a>
-  <a href="https://www.linkedin.com/in/igor-santos-bueno"><img src="https://img.shields.io/badge/LinkedIn-igor--santos--bueno-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <img src="https://komarev.com/ghpvc/?username=1kookieh&style=flat-square&color=7A5CFF&label=Profile+views" alt="profile views" />
-</p>
+## Para recrutadores
 
----
+- Busco oportunidades de **estágio** ou **desenvolvedor júnior**.
+- Tenho foco em **Python, backend, automação, APIs, MySQL e aplicações desktop**.
+- Meus projetos demonstram **organização de código, documentação, testes, CI e arquitetura em camadas**.
+- Tenho interesse em sistemas internos, automação de processos, integração de dados e IA aplicada de forma prática.
 
-### Sobre mim
+## Stack principal
 
-- Desenvolvedor de Software & Suporte de TI — responsável técnico único por desenvolvimento, automação e integração de sistemas
-- Cursando **Bacharelado em Ciência da Computação na PUC-GO**
-- Foco em **automação com IA**, **integração de APIs REST** e pipelines orientados a dados
-- Busco **código limpo**, **arquitetura em camadas** e **zero dependência desnecessária**
-- Inglês **B2** — leitura técnica e escrita profissional
+| Contexto | Tecnologias |
+| --- | --- |
+| Linguagens | Python, C, C++, JavaScript, Java |
+| Backend e automação | Python, APIs REST, JSON, scripts, pipelines |
+| Banco de dados | MySQL, SQL, transações, modelagem básica |
+| Desktop | Tkinter |
+| Ferramentas | Git, GitHub, GitHub Actions, CMake |
+| Estudando | Arquitetura de software, testes, algoritmos, IA aplicada |
 
----
+## Projetos em destaque
 
-### Stack
+### [sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img alt="Google Apps Script" src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
+Pipeline em Python para gerar e validar documentos `.docx` a partir de texto simples, com foco em automação documental supervisionada.
 
----
+**Stack:** Python, python-docx, JSON, GitHub Actions
 
-### Projetos em destaque
+**Demonstra:** arquitetura de pipeline, validação determinística, geração de documentos, documentação técnica e cuidado com dados sensíveis.
 
-<p align="center">
-  <a href="https://github.com/1kookieh/mau-mau">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=mau-mau&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042419" alt="mau-mau" />
-  </a>
-  <a href="https://github.com/1kookieh/crud-mysql-python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=crud-mysql-python&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042419" alt="crud-mysql-python" />
-  </a>
-  <a href="https://github.com/1kookieh/sistema-de-peticoes">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=sistema-de-peticoes&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042419" alt="sistema-de-peticoes" />
-  </a>
-</p>
+### [crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)
 
-**[mau-mau](https://github.com/1kookieh/mau-mau)** — Simulador do jogo Mau-mau em **C++17**, com estruturas de dados implementadas do zero: pilha baseada em arranjo dinâmico e lista circular duplamente encadeada para os jogadores. Modelagem orientada a objetos, efeitos de cartas especiais (Ás, Sete, Nove, Dama) e testes unitários sem dependências externas.
+Aplicação desktop para gestão de registros com interface Tkinter e persistência em MySQL.
 
-**[crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)** — CRUD Desktop em **Python + Tkinter + MySQL**. Pool de conexões, transações, validação, busca em tempo real, ordenação por colunas, atalhos de teclado e hierarquia de exceções. Arquitetura em camadas (UI / CRUD / database / config).
+**Stack:** Python, Tkinter, MySQL
 
-**[sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Pipeline em Python que gera e valida documentos `.docx` formatados automaticamente a partir de texto simples. Arquitetura orientada a filas, validador determinístico e zero dependência externa além do `python-docx`.
+**Demonstra:** arquitetura em camadas, CRUD completo, transações, validação de entrada, tratamento de erros e configuração por `.env`.
 
----
+### [mau-mau](https://github.com/1kookieh/mau-mau)
 
-### GitHub stats
+Simulador do jogo Mau-mau em C++17 com estruturas de dados implementadas manualmente.
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=21600&v=2026042419" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=21600&v=2026042419" alt="top-langs" />
-</p>
+**Stack:** C++17, CMake
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=1kookieh&theme=tokyonight&hide_border=true&v=2026042419" alt="streak" />
-</p>
+**Demonstra:** estruturas de dados, lista circular duplamente encadeada, pilha própria, modelagem orientada a objetos, testes e CI.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1kookieh&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&v=2026042419" alt="activity graph" />
-</p>
+## O que meus projetos demonstram
 
----
+- Capacidade de organizar projetos com README, documentação, licença, changelog e CI.
+- Uso de Python para resolver problemas práticos com arquivos, banco de dados e automação.
+- Conhecimento de fundamentos com C/C++, estruturas de dados e simulação.
+- Atenção a validação, tratamento de erros, segurança básica e experiência de quem vai executar o projeto.
+- Evolução técnica com foco em código limpo, arquitetura simples e manutenção.
 
-### Em que estou trabalhando
+## Atualmente estudando
 
-- Construindo **ferramentas de automação com APIs REST + LLMs**
-- Aprofundando em **MySQL**, **transações** e **arquitetura em camadas**
-- Estudando **arquitetura e desenho de software**, **algoritmos em grafos** e **paradigmas de programação**
-- Refinando projetos em Python com foco em **qualidade de código** e **testes**
+- Arquitetura de software e separação de responsabilidades.
+- Testes automatizados em Python.
+- MySQL, transações e boas práticas de persistência.
+- APIs, automação e IA aplicada a fluxos reais.
+- Algoritmos, estruturas de dados e C/C++.
 
----
+## Contato
 
-<p align="center">
-  <a href="mailto:igorsntt1@gmail.com">igorsntt1@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/igor-santos-bueno">LinkedIn</a> &nbsp;·&nbsp;
-  Goiânia – GO
+- LinkedIn: [igor-santos-bueno](https://www.linkedin.com/in/igor-santos-bueno)
+- GitHub: [@1kookieh](https://github.com/1kookieh)
+- Localização: Goiânia, GO
+
+## GitHub Stats
+
+<p align="left">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&theme=default&hide_border=true" alt="Top languages" />
 </p>
