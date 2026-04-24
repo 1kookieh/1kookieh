@@ -1,7 +1,7 @@
 <h1 align="center">Olá, eu sou o Igor 👋</h1>
 
 <p align="center">
-  <em>Desenvolvedor de Software & Estudante de Ciência da Computação · Goiânia, Brasil 🇧🇷</em>
+  <em>Desenvolvedor de Software & Estudante de Ciência da Computação · Goiânia, Brasil</em>
 </p>
 
 <p align="center">
@@ -16,17 +16,17 @@
 
 ---
 
-### 🧠 Sobre mim
+### Sobre mim
 
-- 💻 Desenvolvedor de Software & Suporte de TI — responsável técnico único por desenvolvimento, automação e integração de sistemas
-- 🎓 Cursando **Bacharelado em Ciência da Computação na PUC-GO** (CRE 7,3 · 86 créditos concluídos)
-- 🤖 Foco em **automação com IA**, **integração de APIs REST** e pipelines orientados a dados
-- 🛠️ Busco **código limpo**, **arquitetura em camadas** e **zero dependência desnecessária**
-- 🌐 Inglês **B2** — leitura técnica e escrita profissional
+- Desenvolvedor de Software & Suporte de TI — responsável técnico único por desenvolvimento, automação e integração de sistemas
+- Cursando **Bacharelado em Ciência da Computação na PUC-GO**
+- Foco em **automação com IA**, **integração de APIs REST** e pipelines orientados a dados
+- Busco **código limpo**, **arquitetura em camadas** e **zero dependência desnecessária**
+- Inglês **B2** — leitura técnica e escrita profissional
 
 ---
 
-### 🧰 Stack
+### Stack
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -46,9 +46,12 @@
 
 ---
 
-### 📌 Projetos em destaque
+### Projetos em destaque
 
 <p align="center">
+  <a href="https://github.com/1kookieh/mau-mau">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=mau-mau&theme=tokyonight&hide_border=true" alt="mau-mau" />
+  </a>
   <a href="https://github.com/1kookieh/crud-mysql-python">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=crud-mysql-python&theme=tokyonight&hide_border=true" alt="crud-mysql-python" />
   </a>
@@ -57,13 +60,15 @@
   </a>
 </p>
 
-**🗄️ [crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)** — CRUD Desktop em **Python + Tkinter + MySQL**. Pool de conexões, transações, validação, busca em tempo real, ordenação por colunas, atalhos de teclado e hierarquia de exceções. Arquitetura em camadas (UI / CRUD / database / config).
+**[mau-mau](https://github.com/1kookieh/mau-mau)** — Simulador do jogo Mau-mau em **C++17**, com estruturas de dados implementadas do zero: pilha baseada em arranjo dinâmico e lista circular duplamente encadeada para os jogadores. Modelagem orientada a objetos, efeitos de cartas especiais (Ás, Sete, Nove, Dama) e testes unitários sem dependências externas.
 
-**📝 [sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Pipeline em Python que gera e valida documentos `.docx` formatados automaticamente a partir de texto simples. Arquitetura orientada a filas, validador determinístico e zero dependência externa além do `python-docx`.
+**[crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)** — CRUD Desktop em **Python + Tkinter + MySQL**. Pool de conexões, transações, validação, busca em tempo real, ordenação por colunas, atalhos de teclado e hierarquia de exceções. Arquitetura em camadas (UI / CRUD / database / config).
+
+**[sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Pipeline em Python que gera e valida documentos `.docx` formatados automaticamente a partir de texto simples. Arquitetura orientada a filas, validador determinístico e zero dependência externa além do `python-docx`.
 
 ---
 
-### 📊 GitHub stats
+### GitHub stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
@@ -80,21 +85,17 @@
 
 ---
 
-### 🎯 Em que estou trabalhando
+### Em que estou trabalhando
 
 - Construindo **ferramentas de automação com APIs REST + LLMs**
 - Aprofundando em **MySQL**, **transações** e **arquitetura em camadas**
-- Estudando **arquitetura e desenho de software**, **algoritmos em grafos** e **paradigmas de programação** (2026/1 na PUC-GO)
+- Estudando **arquitetura e desenho de software**, **algoritmos em grafos** e **paradigmas de programação**
 - Refinando projetos em Python com foco em **qualidade de código** e **testes**
 
 ---
 
 <p align="center">
-  <a href="mailto:igorsntt1@gmail.com">📧 igorsntt1@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/igor-santos-bueno">💼 LinkedIn</a> &nbsp;·&nbsp;
-  📍 Goiânia – GO
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00A3FF,100:7A5CFF&height=80&section=footer" />
+  <a href="mailto:igorsntt1@gmail.com">igorsntt1@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/igor-santos-bueno">LinkedIn</a> &nbsp;·&nbsp;
+  Goiânia – GO
 </p>
