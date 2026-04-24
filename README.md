@@ -18,9 +18,9 @@
 
 ### 🧠 Sobre mim
 
-- 💻 Desenvolvedor de Software & Suporte de TI no **Escritório Jurídico Carlos Magalhães** — responsável técnico único por desenvolvimento, automação e integração de sistemas
+- 💻 Desenvolvedor de Software & Suporte de TI — responsável técnico único por desenvolvimento, automação e integração de sistemas
 - 🎓 Cursando **Bacharelado em Ciência da Computação na PUC-GO** (CRE 7,3 · 86 créditos concluídos)
-- 🤖 Foco em **automação com IA** (API Claude/GPT), **integração de APIs** e pipelines orientados a dados
+- 🤖 Foco em **automação com IA**, **integração de APIs REST** e pipelines orientados a dados
 - 🛠️ Busco **código limpo**, **arquitetura em camadas** e **zero dependência desnecessária**
 - 🌐 Inglês **B2** — leitura técnica e escrita profissional
 
@@ -38,23 +38,11 @@
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img alt="Claude" src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
   <img alt="Google Apps Script" src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
-
----
-
-### 💼 Experiência em produção
-
-> Desenvolvedor de Software & Suporte de TI — Escritório Jurídico Carlos Magalhães *(Fev/2026 – Presente)*
-
-- 📉 **−70% no tempo de consulta** ao construir dashboard interativo em HTML/JS integrando dados de 20+ processos
-- 📄 Pipeline de **extração de PDFs com Python + IA**: de 15 min para **menos de 2 min** por documento
-- 📨 Triagem automática de **50+ e-mails/semana** via Google Apps Script — **3h/semana** liberadas, zero falhas em produção
-- ⚖️ Integração de **PJe, e-SAJ e Projudi** em SOPs digitais unificados — **−40% de retrabalho** por inconsistência
 
 ---
 
@@ -73,8 +61,6 @@
 
 **📝 [sistema-de-peticoes](https://github.com/1kookieh/sistema-de-peticoes)** — Pipeline em Python que gera e valida documentos `.docx` formatados automaticamente a partir de texto simples. Arquitetura orientada a filas, validador determinístico e zero dependência externa além do `python-docx`.
 
-**🃏 Jogo Mau-Mau — C (Estruturas de Dados)** — Implementação com **lista circular duplamente encadeada + pilha**, zero vazamentos de memória em **500+ ciclos de teste**.
-
 ---
 
 ### 📊 GitHub stats
@@ -88,11 +74,15 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=1kookieh&theme=tokyonight&hide_border=true" alt="streak" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1kookieh&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae" alt="activity graph" />
+</p>
+
 ---
 
 ### 🎯 Em que estou trabalhando
 
-- Construindo **ferramentas de automação com APIs REST + LLMs** — ciclo completo da especificação ao deploy em menos de 2h
+- Construindo **ferramentas de automação com APIs REST + LLMs**
 - Aprofundando em **MySQL**, **transações** e **arquitetura em camadas**
 - Estudando **arquitetura e desenho de software**, **algoritmos em grafos** e **paradigmas de programação** (2026/1 na PUC-GO)
 - Refinando projetos em Python com foco em **qualidade de código** e **testes**
