@@ -53,13 +53,13 @@
 
 <p align="center">
   <a href="https://github.com/1kookieh/mau-mau">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=mau-mau&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042714" alt="mau-mau" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=mau-mau&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042719" alt="mau-mau" />
   </a>
   <a href="https://github.com/1kookieh/crud-mysql-python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=crud-mysql-python&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042714" alt="crud-mysql-python" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=crud-mysql-python&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042719" alt="crud-mysql-python" />
   </a>
   <a href="https://github.com/1kookieh/sistema-de-peticoes">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=sistema-de-peticoes&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042714" alt="sistema-de-peticoes" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1kookieh&repo=sistema-de-peticoes&theme=tokyonight&hide_border=true&cache_seconds=21600&v=2026042719" alt="sistema-de-peticoes" />
   </a>
 </p>
 
@@ -74,16 +74,16 @@
 ### GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=21600&v=2026042714" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=21600&v=2026042714" alt="top-langs" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=21600&v=2026042719" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=21600&v=2026042719" alt="top-langs" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=1kookieh&theme=tokyonight&hide_border=true&v=2026042714" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=1kookieh&theme=tokyonight&hide_border=true&v=2026042719" alt="streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1kookieh&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&v=2026042714" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1kookieh&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&v=2026042719" alt="activity graph" />
 </p>
 
 ---
