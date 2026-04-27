@@ -22,6 +22,13 @@ Sou estudante de **Ciência da Computação na PUC-GO** e desenvolvedor em forma
 
 Tenho interesse em construir ferramentas que resolvem problemas reais: pipelines locais, integrações, interfaces simples para uso operacional, validações automatizadas e projetos com documentação clara. Busco oportunidades de **estágio ou desenvolvedor júnior**, principalmente em Python/backend, automação, APIs e sistemas corporativos.
 
+## Para recrutadores
+
+- **Foco principal:** Python, backend, automação, APIs REST e sistemas internos.
+- **Projetos mais relevantes:** automação documental com FastAPI, CRUD desktop com MySQL e simulação em C++.
+- **Diferencial do portfólio:** projetos com documentação, testes, arquitetura explicada e preocupação com uso real.
+- **Interesse atual:** estágio/júnior em desenvolvimento Python, backend, automação ou sistemas corporativos.
+
 ## Projeto principal em destaque
 
 ### [Sistema de Petições](https://github.com/1kookieh/sistema-de-peticoes)
@@ -38,6 +45,8 @@ O projeto demonstra:
 - prompts versionados para geração jurídica e formatação Word;
 - preocupação com LGPD, dados sensíveis, revisão humana e uso supervisionado;
 - testes automatizados com `pytest` e CI no GitHub Actions.
+
+Este é o projeto mais completo do portfólio e concentra as principais competências que quero demonstrar: backend, automação, documentação técnica, testes, frontend simples, Docker e arquitetura de software.
 
 <p align="center">
   <a href="https://github.com/1kookieh/sistema-de-peticoes">
@@ -86,6 +95,10 @@ Simulador do jogo Mau-mau em **C++17**, com estruturas de dados implementadas do
 - MySQL, transações e modelagem de dados.
 - C/C++, estruturas de dados e algoritmos.
 - IA aplicada em fluxos supervisionados e ferramentas internas.
+
+## Aberto a oportunidades
+
+Estou buscando oportunidades de estágio ou vaga júnior onde eu possa contribuir com desenvolvimento Python, backend, automações, APIs, sistemas internos e manutenção de projetos reais.
 
 ## GitHub stats
 
