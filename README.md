@@ -1,102 +1,218 @@
 <h1 align="center">Igor Santos Bueno</h1>
 
 <p align="center">
-  <strong>Estudante de Ciência da Computação | Python, Backend, Automação e Sistemas Internos</strong>
+  <strong>Estudante de Ciência da Computação · Python · Backend · Automação · APIs · Sistemas internos</strong>
+  <br/>
+  <em>Goiânia · GO · Brasil &nbsp;|&nbsp; Buscando estágio ou vaga júnior em desenvolvimento</em>
 </p>
 
 <p align="center">
   <a href="mailto:igorsntt1@gmail.com"><img src="https://img.shields.io/badge/Email-igorsntt1%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/igor-santos-bueno"><img src="https://img.shields.io/badge/LinkedIn-igor--santos--bueno-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/1kookieh"><img src="https://img.shields.io/badge/GitHub-1kookieh-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <img src="https://komarev.com/ghpvc/?username=1kookieh&style=flat-square&color=2B6CB0&label=Profile+views" alt="Visualizações do perfil" />
 </p>
 
 ---
 
-## Stack principal
+## 👨‍💻 Sobre mim
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+Estudante de **Ciência da Computação na PUC-GO** e desenvolvedor em formação. Atuo em **Python**, **backend**, **automação** e **APIs REST**, com experiência prática construindo ferramentas internas em ambiente jurídico — automações, dashboards, pipelines de extração de PDFs/Word/imagem e sistemas locais com interface desktop ou web.
 
-**Também utilizo:** APIs REST, pytest, python-docx, Pydantic, Google Apps Script, integrações com APIs de IA, engenharia de prompt, LLMs, extração de dados de PDFs, automação de processos e ETL básico.
-
-## Sobre mim
-
-Sou estudante de **Ciência da Computação na PUC-GO** e desenvolvedor em formação com foco em **Python**, **backend**, **automação**, **APIs REST**, **MySQL**, **aplicações desktop**, **IA aplicada** e **sistemas internos**.
-
-Tenho experiência prática em ambiente jurídico, criando automações, dashboards, pipelines de extração de dados e ferramentas internas para reduzir trabalho manual. Busco oportunidades de **estágio** ou **desenvolvedor júnior**, principalmente em Python/backend, automação, dados, APIs e sistemas corporativos.
-
-## Para recrutadores
-
-- **Foco principal:** Python, backend, automação, APIs REST e sistemas internos.
-- **Stack de uso real:** Python, SQL, JavaScript, MySQL, APIs, Google Apps Script, HTML/CSS e integração com IA.
-- **Projeto mais forte:** `sistema-de-peticoes`, que reúne FastAPI, JavaScript, Docker, testes, prompts versionados e geração de `.docx`.
-- **Diferencial do portfólio:** projetos com documentação, testes, arquitetura explicada, automação de processos e preocupação com uso real.
-- **Objetivo atual:** estágio ou vaga júnior em desenvolvimento Python, backend, automação, dados ou sistemas corporativos.
-
-## Projeto principal
-
-### [Sistema de Petições](https://github.com/1kookieh/sistema-de-peticoes)
-
-Sistema local em **Python + FastAPI + HTML/CSS/JavaScript + Docker** para gerar e validar documentos jurídicos `.docx` a partir de texto, PDF, Word, Markdown ou imagem.
-
-**O que este projeto demonstra:**
-
-- arquitetura em camadas com `core`, `adapters`, `infra`, `interfaces` e `orchestration`;
-- API REST versionada em `/api/v1` com FastAPI;
-- front-end local modular em JavaScript puro;
-- geração e validação estrutural de `.docx` com `python-docx`;
-- extração de texto de documentos e imagens para automação documental;
-- relatórios JSON/HTML e histórico local;
-- prompts versionados para geração jurídica e formatação Word;
-- preocupação com LGPD, dados sensíveis, revisão humana e uso supervisionado;
-- testes automatizados com `pytest`, Docker e CI no GitHub Actions.
-
-> Este é o projeto mais completo do meu portfólio e concentra as principais competências que quero demonstrar: backend, automação, documentação técnica, testes, frontend simples, Docker e arquitetura de software.
-
-## Outros projetos
-
-### [crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)
-
-CRUD desktop em **Python + Tkinter + MySQL**, com pool de conexões, transações, validação, busca, ordenação por colunas, atalhos de teclado e separação entre interface, regras de CRUD, banco de dados e configuração.
-
-**Demonstra:** aplicações desktop, SQL/MySQL, modelagem relacional, validação de dados, tratamento de erros e organização em camadas.
-
-### [mau-mau](https://github.com/1kookieh/mau-mau)
-
-Simulador do jogo Mau-mau em **C++17**, com estruturas de dados implementadas do zero, lista circular duplamente encadeada para jogadores, pilha baseada em arranjo dinâmico e modelagem orientada a objetos.
-
-**Demonstra:** fundamentos de C++, estruturas de dados, simulação baseada em regras, CMake, testes e raciocínio algorítmico.
-
-## Atualmente estudando
-
-- Arquitetura de software e organização de projetos Python.
-- APIs REST, validação de dados e automações locais.
-- SQL, MySQL, transações, modelagem relacional e pipelines de dados.
-- C/C++, estruturas de dados e algoritmos.
-- IA aplicada, engenharia de prompt, LLMs e ferramentas internas supervisionadas.
-
-## Aberto a oportunidades
-
-Estou buscando oportunidades de estágio ou vaga júnior onde eu possa contribuir com desenvolvimento Python, backend, automações, APIs, sistemas internos e manutenção de projetos reais.
+Gosto de projetos com **arquitetura clara, testes, documentação e preocupação real com uso final** — não com demonstrações superficiais. Procuro **estágio** ou vaga **júnior** em Python/backend, automação, dados, APIs ou sistemas corporativos.
 
 ---
 
+## 🛠️ Stack principal
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+**Linguagens**
+
+<p>
+  <img alt="Python"     src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img alt="Java"       src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img alt="C++"        src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img alt="C"          src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img alt="HTML5"      src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3"       src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="SQL"        src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
+**Backend & APIs**
+
+<p>
+  <img alt="FastAPI"  src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img alt="Uvicorn"  src="https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" />
+  <img alt="Pydantic" src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+  <img alt="REST"     src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=swagger&logoColor=white" />
+</p>
+
+**Banco de dados**
+
+<p>
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+</td>
+    <td valign="top" width="50%">
+
+**Front-end & Desktop**
+
+<p>
+  <img alt="HTML/CSS/JS ESM" src="https://img.shields.io/badge/HTML%2FCSS%2FJS_ESM-3178C6?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img alt="Tkinter"         src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+**DevOps & Ferramentas**
+
+<p>
+  <img alt="Docker"         src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img alt="Git"            src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="GitHub"         src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+**Testes & Qualidade**
+
+<p>
+  <img alt="pytest" src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+</p>
+
+**IA aplicada & Automação**
+
+<p>
+  <img alt="LLM APIs"      src="https://img.shields.io/badge/LLM_APIs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
+  <img alt="Prompt eng."   src="https://img.shields.io/badge/Prompt_Engineering-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img alt="Apps Script"   src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
+
+</td>
+  </tr>
+</table>
+
+> Bibliotecas de uso real: **python-docx**, **pypdf**, **Pillow**, **pytesseract** (OCR), **Jinja2**, **pydantic-settings**, ETL básico e extração de dados de PDFs/DOCX/imagem.
+
+---
+
+## 🚀 Projetos em destaque
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### 📄 [Sistema de Petições](https://github.com/1kookieh/sistema-de-peticoes)
+
+Sistema local em **Python + FastAPI + JS + Docker** para validar e renderizar peças jurídicas em `.docx` a partir de texto, PDF, Word, MD ou imagem (OCR).
+
+**Demonstra:**
+- arquitetura em camadas (`core` · `adapters` · `infra` · `interfaces` · `orchestration`);
+- API REST versionada em `/api/v1` com FastAPI + Pydantic;
+- front-end local sem build em HTML/CSS/JS modular (ESM);
+- validação dupla: pré-validação textual + estrutural do `.docx`;
+- prompts versionados e auditáveis com SHA-256 no relatório;
+- preocupação com LGPD, retenção, dados sensíveis e revisão humana;
+- testes automatizados (pytest) + Docker + GitHub Actions.
+
+<p>
+  <img alt="Python"  src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img alt="JS"      src="https://img.shields.io/badge/JS_ESM-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img alt="Docker"  src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="pytest"  src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+</p>
+
+> Projeto mais completo do meu portfólio.
+
+</td>
+    <td valign="top" width="50%">
+
+### 🗄️ [crud-mysql-python](https://github.com/1kookieh/crud-mysql-python)
+
+CRUD desktop em **Python + Tkinter + MySQL**, com pool de conexões, transações, validações, busca, ordenação por colunas, atalhos de teclado e separação clara entre interface, regras de negócio, banco e configuração.
+
+**Demonstra:**
+- aplicações desktop em Python;
+- SQL/MySQL e modelagem relacional;
+- transações e tratamento de erros;
+- validação de dados;
+- organização em camadas mesmo em projeto pequeno.
+
+<p>
+  <img alt="Python"  src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="MySQL"   src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-FF6F00?style=flat-square&logo=python&logoColor=white" />
+</p>
+
+---
+
+### 🃏 [mau-mau](https://github.com/1kookieh/mau-mau)
+
+Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do zero (lista circular duplamente encadeada, pilha em arranjo dinâmico) e modelagem orientada a objetos.
+
+**Demonstra:**
+- fundamentos de C++ e POO;
+- estruturas de dados manuais;
+- CMake + testes;
+- raciocínio algorítmico.
+
+<p>
+  <img alt="C++"   src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
+</p>
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 🎯 Foco atual
+
+- Arquitetura de software e organização de projetos Python (camadas, testes, contratos);
+- APIs REST com FastAPI, Pydantic e validação de dados;
+- SQL/MySQL — transações, modelagem relacional e pipelines de dados;
+- C/C++, estruturas de dados e algoritmos;
+- IA aplicada ao desenvolvimento — engenharia de prompt, LLMs e ferramentas internas supervisionadas.
+
+---
+
+## 📊 GitHub em números
+
 <p align="center">
-  <a href="mailto:igorsntt1@gmail.com">igorsntt1@gmail.com</a> ·
-  <a href="https://www.linkedin.com/in/igor-santos-bueno">LinkedIn</a> ·
-  Goiânia - GO
+  <a href="https://github.com/1kookieh">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&v=2026042800" alt="Estatísticas do GitHub" />
+  </a>
+  <a href="https://github.com/1kookieh">
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&v=2026042800" alt="Linguagens mais usadas" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img height="170" src="https://streak-stats.demolab.com?user=1kookieh&hide_border=true&theme=tokyonight&v=2026042800" alt="Sequência de contribuições" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/1kookieh">
+    <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026042800" alt="Troféus do GitHub" />
+  </a>
+</p>
+
+---
+
+## 📬 Contato
+
+<p align="center">
+  <a href="mailto:igorsntt1@gmail.com"><img src="https://img.shields.io/badge/-igorsntt1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/igor-santos-bueno"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/1kookieh"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
+  <sub>Aberto a oportunidades de estágio ou vaga júnior · Goiânia/GO · disponível para remoto e híbrido</sub>
 </p>
