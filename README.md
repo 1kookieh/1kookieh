@@ -192,12 +192,6 @@ Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img height="170" src="https://streak-stats.demolab.com/?user=1kookieh&hide_border=true&theme=tokyonight&v=2026042801" alt="Sequência de contribuições" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/1kookieh">
     <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026042800" alt="Troféus do GitHub" />
   </a>
