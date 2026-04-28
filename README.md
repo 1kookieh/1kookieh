@@ -184,7 +184,7 @@ Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do
 
 <p align="center">
   <a href="https://github.com/1kookieh">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&v=2026042800" alt="Estatísticas do GitHub" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&v=2026042801" alt="Estatísticas do GitHub" />
   </a>
   <a href="https://github.com/1kookieh">
     <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&v=2026042800" alt="Linguagens mais usadas" />
@@ -193,7 +193,7 @@ Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img height="170" src="https://streak-stats.demolab.com?user=1kookieh&hide_border=true&theme=tokyonight&v=2026042800" alt="Sequência de contribuições" />
+    <img height="170" src="https://streak-stats.demolab.com/?user=1kookieh&hide_border=true&theme=tokyonight&v=2026042801" alt="Sequência de contribuições" />
   </a>
 </p>
 
