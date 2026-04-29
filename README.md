@@ -1,7 +1,7 @@
 <h1 align="center">Igor Santos Bueno</h1>
 
 <p align="center">
-  <strong>Estudante de Ciência da Computação · Python · Backend · Automação · APIs · Sistemas internos</strong>
+  <strong>Estudante de Ciência da Computação · Python · Backend · APIs · IA aplicada · Automação</strong>
   <br/>
   <em>Goiânia · GO · Brasil &nbsp;|&nbsp; Buscando estágio ou vaga júnior em desenvolvimento</em>
 </p>
@@ -17,9 +17,9 @@
 
 ## 👨‍💻 Sobre mim
 
-Estudante de **Ciência da Computação na PUC-GO** e desenvolvedor em formação. Atuo em **Python**, **backend**, **automação** e **APIs REST**, com experiência prática construindo ferramentas internas em ambiente jurídico — automações, dashboards, pipelines de extração de PDFs/Word/imagem e sistemas locais com interface desktop ou web.
+Estudante de **Ciência da Computação na PUC-GO** e desenvolvedor em formação. Atuo em **Python**, **backend**, **automação**, **APIs REST** e **IA aplicada**, com experiência prática construindo ferramentas internas em ambiente jurídico — automações, dashboards, pipelines de extração de PDFs/Word/imagem e sistemas locais com interface desktop ou web.
 
-Gosto de projetos com **arquitetura clara, testes, documentação e preocupação real com uso final** — não com demonstrações superficiais. Procuro **estágio** ou vaga **júnior** em Python/backend, automação, dados, APIs ou sistemas corporativos.
+Gosto de projetos com **arquitetura clara, testes, documentação, segurança e preocupação real com uso final** — não com demonstrações superficiais. Procuro **estágio** ou vaga **júnior** em Python/backend, automação, IA aplicada, dados, APIs ou sistemas corporativos.
 
 ---
 
@@ -106,15 +106,16 @@ Gosto de projetos com **arquitetura clara, testes, documentação e preocupaçã
 
 ### 📄 [Sistema de Petições](https://github.com/1kookieh/sistema-de-peticoes)
 
-Sistema local em **Python + FastAPI + JS + Docker** para validar e renderizar peças jurídicas em `.docx` a partir de texto, PDF, Word, MD ou imagem (OCR).
+Sistema local **AI-first** em **Python + FastAPI + JS + Docker** para criar minutas jurídicas em `.docx` a partir de texto, PDF, Word, MD ou imagem (OCR), usando prompts versionados, providers LLM configuráveis e validações estruturais.
 
 **Demonstra:**
 - arquitetura em camadas (`core` · `adapters` · `infra` · `interfaces` · `orchestration`);
 - API REST versionada em `/api/v1` com FastAPI + Pydantic;
 - front-end local sem build em HTML/CSS/JS modular (ESM);
-- validação dupla: pré-validação textual + estrutural do `.docx`;
+- fluxo AI-first com providers `mock`, `ollama`, `openai` e `anthropic`;
+- geração de DOCX a partir de resposta estruturada da IA;
 - prompts versionados e auditáveis com SHA-256 no relatório;
-- preocupação com LGPD, retenção, dados sensíveis e revisão humana;
+- preocupação com LGPD, consentimento para IA externa, redaction parcial e revisão humana;
 - testes automatizados (pytest) + Docker + GitHub Actions.
 
 <p>
@@ -122,6 +123,7 @@ Sistema local em **Python + FastAPI + JS + Docker** para validar e renderizar pe
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img alt="JS"      src="https://img.shields.io/badge/JS_ESM-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img alt="Docker"  src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="LLM"     src="https://img.shields.io/badge/LLM-8A2BE2?style=flat-square&logo=openai&logoColor=white" />
   <img alt="pytest"  src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
 </p>
 
@@ -176,7 +178,7 @@ Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do
 - APIs REST com FastAPI, Pydantic e validação de dados;
 - SQL/MySQL — transações, modelagem relacional e pipelines de dados;
 - C/C++, estruturas de dados e algoritmos;
-- IA aplicada ao desenvolvimento — engenharia de prompt, LLMs e ferramentas internas supervisionadas.
+- IA aplicada ao desenvolvimento — engenharia de prompt, LLMs, automação documental e ferramentas internas supervisionadas.
 
 ---
 
