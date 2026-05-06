@@ -186,16 +186,16 @@ Simulador do jogo **Mau-mau em C++17**, com estruturas de dados implementadas do
 
 <p align="center">
   <a href="https://github.com/1kookieh">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&v=2026050608" alt="Estatísticas do GitHub" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=1kookieh&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&v=2026050614" alt="Estatísticas do GitHub" />
   </a>
   <a href="https://github.com/1kookieh">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&v=2026050608" alt="Linguagens mais usadas" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1kookieh&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&v=2026050614" alt="Linguagens mais usadas" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/1kookieh">
-    <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026050608" alt="Troféus do GitHub" />
+    <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026050614" alt="Troféus do GitHub" />
   </a>
 </p>
 
