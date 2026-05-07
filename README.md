@@ -10,7 +10,7 @@
   <a href="mailto:igorsntt1@gmail.com"><img src="https://img.shields.io/badge/Email-igorsntt1%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/igor-santos-bueno"><img src="https://img.shields.io/badge/LinkedIn-igor--santos--bueno-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/1kookieh"><img src="https://img.shields.io/badge/GitHub-1kookieh-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=1kookieh&style=flat-square&color=2B6CB0&label=Profile+views" alt="Visualizações do perfil" />
+  <img src="https://komarev.com/ghpvc/?username=1kookieh&style=flat-square&color=2B6CB0&label=Visualiza%C3%A7%C3%B5es" alt="Visualizações do perfil" />
 </p>
 
 ---
