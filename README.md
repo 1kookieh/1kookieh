@@ -173,7 +173,7 @@ Simulador do jogo **Mau-mau em C++17**, criado a partir de um exercício acadêm
 
 <p align="center">
   <a href="https://github.com/1kookieh">
-    <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026050714" alt="Troféus do GitHub" />
+    <img src="https://github-profile-trophy.vercel.app/?username=1kookieh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10&v=2026050719" alt="Troféus do GitHub" />
   </a>
 </p>
 
