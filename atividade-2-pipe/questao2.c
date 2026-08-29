@@ -1,24 +1,29 @@
-/* Questao 2: pipeline com tres processos e dois pipes.
-   P1 le o arquivo, P2 ordena e remove duplicados, P3 conta os valores unicos. */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
 
-static int compara(const void *a, const void *b)
+int compara(const void *a, const void *b)
 {
     int x = *(const int *) a;
     int y = *(const int *) b;
-    return (x > y) - (x < y);
+
+    if (x < y)
+        return -1;
+    if (x > y)
+        return 1;
+    return 0;
 }
 
 int main(int argc, char *argv[])
 {
-    const char *caminho = (argc > 1) ? argv[1] : "dados.txt";
     int p1[2], p2[2];
+    int numero, enviados, status;
     pid_t pid_filtro, pid_contador;
-    int status;
+    FILE *arquivo;
+    char *caminho;
+
+    caminho = (argc > 1) ? argv[1] : "dados.txt";
 
     if (pipe(p1) == -1 || pipe(p2) == -1) {
         perror("pipe");
@@ -34,28 +39,29 @@ int main(int argc, char *argv[])
 
     if (pid_filtro == 0) {
         int *v = NULL;
-        int cap = 0, qtd = 0, valor, i;
+        int cap = 0;
+        int qtd = 0;
+        int valor, i;
 
         close(p1[1]);
         close(p2[0]);
-        printf("[P2 filtro   pid=%d] ordena e remove duplicados\n", getpid());
+        printf("Processo 2 pid %d ordena e remove duplicados\n", getpid());
         fflush(stdout);
 
         while (read(p1[0], &valor, sizeof(int)) == sizeof(int)) {
             if (qtd == cap) {
-                int novo = (cap == 0) ? 1024 : cap * 2;
-                int *aux = realloc(v, (size_t) novo * sizeof(int));
+                int *aux;
+                cap = (cap == 0) ? 1024 : cap * 2;
+                aux = realloc(v, (size_t) cap * sizeof(int));
                 if (aux == NULL) {
                     perror("realloc");
                     free(v);
-                    close(p1[0]);
-                    close(p2[1]);
                     exit(1);
                 }
                 v = aux;
-                cap = novo;
             }
-            v[qtd++] = valor;
+            v[qtd] = valor;
+            qtd = qtd + 1;
         }
         close(p1[0]);
 
@@ -66,15 +72,14 @@ int main(int argc, char *argv[])
             if (i > 0 && v[i] == v[i - 1])
                 continue;
             if (write(p2[1], &v[i], sizeof(int)) != sizeof(int)) {
-                perror("write p2");
+                perror("write");
                 break;
             }
         }
 
         free(v);
         close(p2[1]);
-        printf("[P2 filtro   pid=%d] %d valores lidos, envio concluido\n",
-               getpid(), qtd);
+        printf("Processo 2 pid %d leu %d numeros\n", getpid(), qtd);
         exit(0);
     }
 
@@ -86,31 +91,30 @@ int main(int argc, char *argv[])
     }
 
     if (pid_contador == 0) {
-        int valor, total = 0;
+        int valor;
+        int total = 0;
 
         close(p1[0]);
         close(p1[1]);
         close(p2[1]);
-        printf("[P3 contador pid=%d] aguardando valores unicos\n", getpid());
+        printf("Processo 3 pid %d aguardando valores unicos\n", getpid());
         fflush(stdout);
 
         while (read(p2[0], &valor, sizeof(int)) == sizeof(int))
-            total++;
+            total = total + 1;
         close(p2[0]);
 
-        printf("[P3 contador pid=%d] valores distintos: %d\n", getpid(), total);
+        printf("Processo 3 pid %d valores distintos %d\n", getpid(), total);
         exit(0);
     }
 
-    /* P1: le o arquivo e alimenta o primeiro pipe. */
     close(p1[0]);
     close(p2[0]);
     close(p2[1]);
 
-    printf("[P1 leitor   pid=%d] arquivo: %s | filhos: %d e %d\n",
-           getpid(), caminho, pid_filtro, pid_contador);
+    printf("Processo 1 pid %d lendo o arquivo %s\n", getpid(), caminho);
 
-    FILE *arquivo = fopen(caminho, "r");
+    arquivo = fopen(caminho, "r");
     if (arquivo == NULL) {
         perror("Erro ao abrir arquivo");
         close(p1[1]);
@@ -119,26 +123,21 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    int numero, enviados = 0;
+    enviados = 0;
     while (fscanf(arquivo, "%d", &numero) == 1) {
         if (write(p1[1], &numero, sizeof(int)) != sizeof(int)) {
-            perror("write p1");
+            perror("write");
             break;
         }
-        enviados++;
+        enviados = enviados + 1;
     }
 
     fclose(arquivo);
     close(p1[1]);
-    printf("[P1 leitor   pid=%d] %d numeros enviados\n", getpid(), enviados);
+    printf("Processo 1 pid %d enviou %d numeros\n", getpid(), enviados);
 
     waitpid(pid_filtro, &status, 0);
-    printf("[P1 leitor   pid=%d] P2 encerrou com codigo %d\n",
-           getpid(), WIFEXITED(status) ? WEXITSTATUS(status) : -1);
-
     waitpid(pid_contador, &status, 0);
-    printf("[P1 leitor   pid=%d] P3 encerrou com codigo %d\n",
-           getpid(), WIFEXITED(status) ? WEXITSTATUS(status) : -1);
 
     return 0;
 }
