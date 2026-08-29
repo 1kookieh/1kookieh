@@ -15,15 +15,17 @@ int compara(const void *a, const void *b)
     return 0;
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
     int p1[2], p2[2];
-    int numero, enviados, status;
+    int n, i, numero, status;
     pid_t pid_filtro, pid_contador;
-    FILE *arquivo;
-    char *caminho;
 
-    caminho = (argc > 1) ? argv[1] : "dados.txt";
+    printf("Quantidade de numeros: ");
+    if (scanf("%d", &n) != 1 || n <= 0) {
+        fprintf(stderr, "Quantidade invalida\n");
+        return 1;
+    }
 
     if (pipe(p1) == -1 || pipe(p2) == -1) {
         perror("pipe");
@@ -41,7 +43,7 @@ int main(int argc, char *argv[])
         int *v = NULL;
         int cap = 0;
         int qtd = 0;
-        int valor, i;
+        int valor, j;
 
         close(p1[1]);
         close(p2[0]);
@@ -68,10 +70,10 @@ int main(int argc, char *argv[])
         if (qtd > 0)
             qsort(v, qtd, sizeof(int), compara);
 
-        for (i = 0; i < qtd; i++) {
-            if (i > 0 && v[i] == v[i - 1])
+        for (j = 0; j < qtd; j++) {
+            if (j > 0 && v[j] == v[j - 1])
                 continue;
-            if (write(p2[1], &v[i], sizeof(int)) != sizeof(int)) {
+            if (write(p2[1], &v[j], sizeof(int)) != sizeof(int)) {
                 perror("write");
                 break;
             }
@@ -79,7 +81,7 @@ int main(int argc, char *argv[])
 
         free(v);
         close(p2[1]);
-        printf("Processo 2 pid %d leu %d numeros\n", getpid(), qtd);
+        printf("Processo 2 pid %d recebeu %d numeros\n", getpid(), qtd);
         exit(0);
     }
 
@@ -112,30 +114,22 @@ int main(int argc, char *argv[])
     close(p2[0]);
     close(p2[1]);
 
-    printf("Processo 1 pid %d lendo o arquivo %s\n", getpid(), caminho);
+    printf("Processo 1 pid %d lendo os numeros\n", getpid());
 
-    arquivo = fopen(caminho, "r");
-    if (arquivo == NULL) {
-        perror("Erro ao abrir arquivo");
-        close(p1[1]);
-        waitpid(pid_filtro, NULL, 0);
-        waitpid(pid_contador, NULL, 0);
-        return 1;
-    }
-
-    enviados = 0;
-    while (fscanf(arquivo, "%d", &numero) == 1) {
+    for (i = 0; i < n; i++) {
+        printf("Numero %d: ", i + 1);
+        fflush(stdout);
+        if (scanf("%d", &numero) != 1) {
+            fprintf(stderr, "Entrada invalida\n");
+            break;
+        }
         if (write(p1[1], &numero, sizeof(int)) != sizeof(int)) {
             perror("write");
             break;
         }
-        enviados = enviados + 1;
     }
 
-    fclose(arquivo);
     close(p1[1]);
-    printf("Processo 1 pid %d enviou %d numeros\n", getpid(), enviados);
-
     waitpid(pid_filtro, &status, 0);
     waitpid(pid_contador, &status, 0);
 

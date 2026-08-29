@@ -54,7 +54,7 @@ sincroniza os processos sem semáforo.
 
 **4. Como esse modelo reproduz o funcionamento interno de um comando encadeado no shell.**
 
-É o mesmo que cat dados.txt | sort -u | wc -l. O shell cria um pipe por conexão, um fork
+É o mesmo que cat arquivo | sort -u | wc -l. O shell cria um pipe por conexão, um fork
 por comando, liga as pontas com dup2 e chama exec.
 
 **5. Qual é a diferença estrutural entre resolver esse problema com processos e resolver utilizando threads.**
