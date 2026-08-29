@@ -6,8 +6,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-#define MAX 100000
-
 static int compara(const void *a, const void *b)
 {
     int x = *(const int *) a;
@@ -35,19 +33,34 @@ int main(int argc, char *argv[])
     }
 
     if (pid_filtro == 0) {
-        static int v[MAX];
-        int qtd = 0, valor, i;
+        int *v = NULL;
+        int cap = 0, qtd = 0, valor, i;
 
         close(p1[1]);
         close(p2[0]);
         printf("[P2 filtro   pid=%d] ordena e remove duplicados\n", getpid());
         fflush(stdout);
 
-        while (qtd < MAX && read(p1[0], &valor, sizeof(int)) == sizeof(int))
+        while (read(p1[0], &valor, sizeof(int)) == sizeof(int)) {
+            if (qtd == cap) {
+                int novo = (cap == 0) ? 1024 : cap * 2;
+                int *aux = realloc(v, (size_t) novo * sizeof(int));
+                if (aux == NULL) {
+                    perror("realloc");
+                    free(v);
+                    close(p1[0]);
+                    close(p2[1]);
+                    exit(1);
+                }
+                v = aux;
+                cap = novo;
+            }
             v[qtd++] = valor;
+        }
         close(p1[0]);
 
-        qsort(v, qtd, sizeof(int), compara);
+        if (qtd > 0)
+            qsort(v, qtd, sizeof(int), compara);
 
         for (i = 0; i < qtd; i++) {
             if (i > 0 && v[i] == v[i - 1])
@@ -58,6 +71,7 @@ int main(int argc, char *argv[])
             }
         }
 
+        free(v);
         close(p2[1]);
         printf("[P2 filtro   pid=%d] %d valores lidos, envio concluido\n",
                getpid(), qtd);

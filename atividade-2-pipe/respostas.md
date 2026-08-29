@@ -105,7 +105,9 @@ de saída até o pai recolhê-lo com `waitpid`.
 Programa: `questao2.c`. O processo inicial cria os dois pipes e executa dois `fork`.
 P1 abre o arquivo e envia cada inteiro pelo primeiro pipe. P2 lê tudo, ordena com
 `qsort`, descarta repetições e envia os valores únicos pelo segundo pipe. P3 conta
-o que recebeu e imprime o total. Cada processo fecha as pontas que não usa.
+o que recebeu e imprime o total. Cada processo fecha as pontas que não usa. O vetor
+de P2 começa com 1024 posições e dobra com `realloc` sempre que enche, de modo que
+não existe limite fixo de quantidade e nenhum valor é descartado em silêncio.
 
 Execução com `dados.txt` contendo 5, 3, 9, 3, 1, 5, 7, 9, 2 e 7:
 
