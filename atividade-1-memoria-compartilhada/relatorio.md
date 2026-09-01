@@ -36,4 +36,4 @@ Memória compartilhada. O pai soma as 5 posições e divide por 10000 para obter
 
 **Dificuldades encontradas.**
 
-A soma de 10000 valores estoura int, por isso long. E o pai só pode ler a memória depois que todos os filhos terminarem, garantido com wait em loop.
+Com esses valores a soma não chega a estourar int, mas usei long para não depender da faixa. E o pai só pode ler a memória depois que todos os filhos terminarem, garantido com wait em loop.
